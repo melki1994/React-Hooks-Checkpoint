@@ -59,12 +59,12 @@ const AddMovie = (props) => {
                   setNewMovie({ ...newMovie, [e.target.name]: e.target.value })
                 }
               />
-              <Label>Year:</Label>
+              <Label>Release date:</Label>
               <Input
                 type="text"
-                placeholder="Enter the year please"
+                placeholder="Enter the Release date"
                 required
-                name="year"
+                name="date"
                 onChange={(e) =>
                   setNewMovie({ ...newMovie, [e.target.name]: e.target.value })
                 }
