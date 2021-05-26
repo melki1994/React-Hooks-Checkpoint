@@ -22,7 +22,11 @@ function Rate({ rate, setRateSearch }) {
   };
 
   return <div>{stars(rate)}</div>;
-}
+};
+Rate.defaultProps = {
+  setRateSearch: () => {},
+  rate: 1
+};
 
 export default Rate;
 
